@@ -2,6 +2,7 @@
 # See project README.md file for details about format
 # NOTE: The file must be sorted in descending order
 ## ## ## ################################## ###### ## ##
+21 62 -- DosGetPSPSegment SEGMENT:BX void
 21 5D 0B DosGetSwapableDataAreas R_DATASWAPAREAS:AX:DS:SI void
 21 5D 0A DosSetExtendedErrorInfo void param:PDOSPARAMLIST:DS:DX
 21 5D 09 DosFlushPrinterOutput void void
